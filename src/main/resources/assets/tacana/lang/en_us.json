@@ -1,7 +1,5 @@
 {
-  "itemGroup.tacana": "Example Mod Tab",
-  "block.tacana.example_block": "Example Block",
-  "item.tacana.example_item": "Example Item",
+  "itemGroup.tacana": "Tacana",
 
   "tacana.configuration.title": "Tacana Configs",
   "tacana.configuration.section.tacana.common.toml": "Tacana Configs",
