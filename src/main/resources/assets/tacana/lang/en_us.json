@@ -1,11 +1,3 @@
 {
-  "itemGroup.tacana": "Tacana",
-
-  "tacana.configuration.title": "Tacana Configs",
-  "tacana.configuration.section.tacana.common.toml": "Tacana Configs",
-  "tacana.configuration.section.tacana.common.toml.title": "Tacana Configs",
-  "tacana.configuration.items": "Item List",
-  "tacana.configuration.logDirtBlock": "Log Dirt Block",
-  "tacana.configuration.magicNumberIntroduction": "Magic Number Text",
-  "tacana.configuration.magicNumber": "Magic Number"
+  "itemGroup.tacana": "Tacana"
 }
