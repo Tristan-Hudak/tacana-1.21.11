@@ -10,4 +10,19 @@ import net.neoforged.neoforge.registries.DeferredRegister;
 
 public class ModBlocks {
 
+    public static final DeferredRegister.Blocks BLOCKS =
+            DeferredRegister.createBlocks(Tacana.MODID);
+
+    public static final DeferredBlock<Block> TEST_BLOCK =
+            BLOCKS.register(
+                    "test_block",
+                    () -> new Block(
+                            BlockBehaviour.Properties.of().mapColor(MapColor.STONE).strength(1.5f)
+                    )
+            );
+
+    public static void register(IEventBus bus){
+        BLOCKS.register(bus);
+    }
+
 }
