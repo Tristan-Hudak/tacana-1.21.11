@@ -36,7 +36,7 @@ displayName="${mod_name}" #mandatory
 #credits="" #optional
 
 # The authors of the mod, displayed in the mod UI (optional)
-authors="Tristan \"REDOCT108\" Hudak"
+authors="Tristan "REDOCT108" Hudak"
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
