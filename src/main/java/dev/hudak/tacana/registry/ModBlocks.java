@@ -21,6 +21,11 @@ public class ModBlocks {
                     )
             );
 
+    public static final net.neoforged.neoforge.registries.DeferredItem<net.minecraft.world.item.Item> TEST_BLOCK_ITEM =
+            ModItems.registerBlockItem("test_block", TEST_BLOCK);
+
+    private ModBlocks() {}
+
     public static void register(IEventBus bus){
         BLOCKS.register(bus);
     }
